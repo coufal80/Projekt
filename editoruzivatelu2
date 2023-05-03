@@ -1,0 +1,36 @@
+<!-- <form method="post">
+    <input type="hidden" name="uzivatele_id" value="<?= $uzivatel['uzivatele_id'] ?>">
+    <br />
+    Jméno:<br />
+    <input type="text" name="jmeno" placeholder="Jméno" value="<?= $uzivatel['jmeno'] ?>"/><br />
+    Příjmení:<br />
+    <input type="text" name="prijmeni" placeholder="Příjmení" value="<?= $uzivatel['prijmeni'] ?>"/><br />
+    Rodné číslo:<br />
+    <input type="text" name="rodne_cislo" placeholder="0000001234" value="<?= $uzivatel['rodne_cislo'] ?>"/><br />
+    Telefon:<br />
+    <input type="text" name="telefon" placeholder="+420111222333" value="<?= $uzivatel['telefon'] ?>"/><br />
+    Email:<br />
+    <input type="text" name="email" placeholder="jmeno@email.xxx" value="<?= $uzivatel['email'] ?>"/><br />
+    Adresa:<br />
+    <input type="text" name="adresa" placeholder="ulice čp."value="<?= $uzivatel['adresa'] ?>"/><br />
+    Město:<br />
+    <input type="text" name="mesto" placeholder="město" value="<?= $uzivatel['mesto'] ?>"/><br />
+    Služba:<br />
+    <input type="text" name="kod_sluzby" placeholder="kód služby" value="<?= $uzivatel['kod_sluzby'] ?>"/><br />
+    <input type="text" name="jmeno_sluzby" placeholder="jméno služby" value="<?= $uzivatel['jmeno_sluzby'] ?>"/><br />
+    <textarea id="sluzba" name="sluzba"><?= $uzivatel['sluzba'] ?></textarea>
+    <input type="submit" value="Uložit změny" />
+</form> -->
+
+
+uzivatel
+<?php
+// Založeno 29.4.2023
+?>
+
+<header>
+    <h1><?= $titulek ?></h1>
+</header>
+<section>
+    <?= $_obsah ?>
+</section>
